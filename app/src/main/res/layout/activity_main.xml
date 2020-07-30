@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtUname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@+id/login"
+        android:layout_centerInParent="true"
+        android:paddingLeft="15dp"
+
+        android:textSize="15dp"
+        />
+
+    <EditText
+        android:id="@+id/eusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:hint="@string/enter_user_name"
+        android:paddingLeft="15dp"
+
+        />
+    <EditText
+        android:id="@+id/epwdtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/eusername"
+        android:hint="@string/enter_user_name"
+        android:paddingLeft="15dp"
+        />
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/epwdtext"
+        android:layout_centerInParent="true"
+        android:text="@string/login"
+        />
+</RelativeLayout>
